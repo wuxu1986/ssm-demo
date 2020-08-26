@@ -28,6 +28,12 @@ public class PersonController {
     public String id() throws Exception {
         return "hello";
     }
+
+    @RequestMapping("/hello1")
+    @ResponseBody
+    public String id1() throws Exception {
+        return "hello1";
+    }
 }
 
 
